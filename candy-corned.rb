@@ -1,4 +1,3 @@
-# charleanbaxter
 def char_speed(string)
   string.each_char do |value|
     putc value
@@ -86,18 +85,21 @@ puts '
     if tub_option == '2'
       char_speed("You can see light shining behind a shelf and hastily start pushing against its frame to see if there is way to leave the bathroom. Items from the shelf start to fall, and you hear voices growing louder near the bathroom door. Finally, the shelf slowly slides to the left and exposes the source to the light. You see a hallway lined with flickering lanterns. The bathroom door knob begins to turn. You panic and leap through the opening.")
       char_speed("
+
       ▒█▀▄▀█ █▀▀█ █░░ █▀▀█ █▀▀ █░░█ ░▀░ █
       ▒█▒█▒█ █▄▄█ █░░ █▄▄█ █░░ █▀▀█ ▀█▀ ▀
       ▒█░░▒█ ▀░░▀ ▀▀▀ ▀░░▀ ▀▀▀ ▀░░▀ ▀▀▀ ▄
 ░█▀▄▀█ █▀▀█ █── █▀▀█ █▀▀ █──█ ─▀─ █
 ░█░█░█ █▄▄█ █── █▄▄█ █── █▀▀█ ▀█▀ ▀
 ░█──░█ ▀──▀ ▀▀▀ ▀──▀ ▀▀▀ ▀──▀ ▀▀▀ ▄
+
 ")
       char_speed("The familiar chants are interrupted with 'Where is he!' As you look back you see Malachi and partygoers glaring through the opening.")
     elsif tub_option == '1'
       char_speed('As soon as you open the door, Ruby greets your face with a bowl of melted candy corn. You rush back into the bathroom and lock the door. You dump your face in the ice bath. A loud crash behind you places you in a fighter stance. To your relief, the noise is the bathroom mirror that fell onto the floor. Your gaze is taken by the gaping hole in the wall that is now exposed. You can see a hallway lined with lanterns. The banging at the bathroom convinces you that this hole will now be your safe haven. You leap through the opening. As you look back, you see Malachi and the partygoers.')
     end
      puts '
+
      ########:::::::::::########
      #########:::::::::#########
      ##########:::::::##########
@@ -111,33 +113,45 @@ puts '
      ####:::::::(____)::::::####
      ###:::::::::::::::::::::###
      ###########################
+
      '
      puts 'Type what you will shout back at them'
      what_option = gets.chomp
      char_speed("As you shout '#{what_option}', you make a rasp decision.")
+        puts "
+
+        (ง'̀-'́)ง
+
+        "
       options = [" You throw some lanterns inside the bathroom to create a fire barrier between you and these insane partygoers. Running down the hall, you frantically search for another way out of this insanity. The farther you go down the hallway, the fewer options you see to escape. You backtrack and begin searching in one of the huge rooms that you passed by earlier. You notice doors behind a huge desk. After you open the door, you see your friend Ruby in a red robe. At this point, you are exhausted and say, 'Listen, could you not throw it in my face this time?'", " You plea, 'Please let me go. I have not done anything to you.' Malachi leans through the opening with a glare and says, 'I have to avenge the wrong against my great great grandmother.' 'What are you speaking about!' You retort. You hear a voice from behind stating, 'Yes, Gigi Java never got a chance to take her space in the candy corn market because your great great grandfather Jebediah!' You turn to see your friend Ruby standing behind you in a red robe and holding a basket of candy corn. She throws the candy corn onto you and uses a lantern to set you on fire."]
       char_speed(options.sample.chomp)
   elsif wake_option == '3'
     char_speed("You jump out of the tub and look for anything that looks like you can use as a weapon and walk out the bathroom door as you hear chats of")
     puts '
+
           ▒█▀▄▀█ █▀▀█ █░░ █▀▀█ █▀▀ █░░█ ░▀░ █
           ▒█▒█▒█ █▄▄█ █░░ █▄▄█ █░░ █▀▀█ ▀█▀ ▀
           ▒█░░▒█ ▀░░▀ ▀▀▀ ▀░░▀ ▀▀▀ ▀░░▀ ▀▀▀ ▄
     ░█▀▄▀█ █▀▀█ █── █▀▀█ █▀▀ █──█ ─▀─ █
     ░█░█░█ █▄▄█ █── █▄▄█ █── █▀▀█ ▀█▀ ▀
     ░█──░█ ▀──▀ ▀▀▀ ▀──▀ ▀▀▀ ▀──▀ ▀▀▀ ▄
+
     '
       options = ['You walk into an ongoing pagan ritual, and you are enticed to join.' , 'You walk in the room, and the door locks behind. You commence a slashing match with a hooded man.', 'You open the door and run straight home.']
       char_speed(options.sample.chomp)
   end
 puts '
+
   ___ __ _ _ __   __| |() ___  ___
  / __/ _` | _  \ / _  |||/ _ \/ __|
 | (_| (_| | | | | (_| |||  __/\__ \
  \___\__,_|_| |_|\__,_|||\___||___/
+
  '
  char_speed('
+
  █▄─▄▄─██▀▄─██▄─▄▄▀█─▄─▄─█▄─█─▄███─▄▄─█▄─█─▄█▄─▄▄─█▄─▄▄▀█░█░█░█
  ██─▄▄▄██─▀─███─▄─▄███─████▄─▄████─██─██▄▀▄███─▄█▀██─▄─▄█▄█▄█▄█
  ▀▄▄▄▀▀▀▄▄▀▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▀▄▄▄▀▀▀▀▄▄▄▄▀▀▀▄▀▀▀▄▄▄▄▄▀▄▄▀▄▄▀▄▀▄▀▄▀
+ 
 ')
